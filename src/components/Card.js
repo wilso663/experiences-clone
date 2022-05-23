@@ -12,7 +12,7 @@ function Card({src, rating, reviewCount, location, desc, price, openSpots}) {
   return (
     <div className="card">
       {badgeText && <button className="status">{badgeText}</button> }
-      <img src={`../images/${src}`} alt="Katie Zaferes" className="card-image" />    
+      <img src={`/experiences-clone/images/${src}`} alt="Katie Zaferes" className="card-image" />    
         <div className="cards-stats">
           <img src={StarImage} alt="red star" className="card-star"/>
           <span className="grey rating"> {rating}</span>
