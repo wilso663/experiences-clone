@@ -7,7 +7,7 @@ This app is meant to be a self directed design project using React while recreat
 [Repository](https://github.com/wilso663/experiences-clone)  
 [Live Solution](https://wilso663.github.io/experiences-clone/)
 
-![image](/images/experiences.png)
+![image](/src/images/experiences.png)
 
 This project is meant to be a design project, so there is no user functionality besides using the scroll bar to look through the available experiences, but these are populated by dummy data.
 

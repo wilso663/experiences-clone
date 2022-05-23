@@ -7,7 +7,7 @@ import data from './data';
 function App() {
   
   const cards = data.map((item) => { return <Card key={item.id} 
-  src={item.coverImg}
+  src={"/experiences-clone/" + item.coverImg}
   rating = {item.stats.rating}
   reviewCount={item.stats.reviewCount}
   location={item.location}
